@@ -1,0 +1,131 @@
+body
+{
+    width:500px;
+    border-radius: 15px;
+    max-height: max-content;
+    margin-top: 50px;
+    background-color: white;
+}
+  html{
+      
+    background-color: #f4f4f4;
+  }
+  .title{
+      margin: 0 auto;
+  }
+ #receipt{
+     margin: auto 0;
+
+ }
+ .del{
+     color: gray;
+     font-weight: bold;
+ }
+ .time{
+     font-weight: bold;
+ }
+ html, body {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    }
+    form {
+    border: 5px solid #f1f1f1;
+    }
+    input[type=text] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    #instapay{
+        float: right;
+        width: 50px;
+        height: 50px;
+    }
+    #submit{
+    background-color: darkblue;
+    border-radius: 3px;
+    width: 50px;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 20%;
+    height: 25%;
+    float: right;
+    justify-content: center;
+    }
+    .details{
+        color: rgb(119, 105, 78);
+        font-size:10px ; 
+        margin-left: 13px;
+    }
+    #back{
+        
+            background-color: white;
+            border-radius: 3px;
+            width: 50px;
+            color: gray;
+            outline-style: hidden;
+            color: gray;
+            padding: 14px 0;
+            margin: 10px;
+
+            border: none;
+            cursor: grabbing;
+            width: 20%;
+            height: 25%;
+            float: right;
+            justify-content: center;
+            
+    }
+    .header{
+        margin-top: 20px;
+    }
+    .header h1{
+        margin-left: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+    .header p{
+        margin: auto;
+        color: gray;
+    }
+    
+
+    #logo{
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    button:hover {
+    opacity: 0.8;
+    }
+    .formcontainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+    }
+    .container {
+    padding: 16px 0;
+    text-align:left;
+    }
+    span.psw {
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+    }
+    /* Change styles for span on extra small screens */
+    @media screen and (max-width: 300px) {
+    span.psw {
+    display: block;
+    float: none;
+    }
+    }
