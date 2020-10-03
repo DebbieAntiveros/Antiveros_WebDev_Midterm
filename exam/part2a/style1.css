@@ -1,0 +1,63 @@
+body { 
+background-color: white; padding: 40px; 
+}
+
+.receipt { 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  width: 500px; margin: 0 auto; 
+  background-color: #f4f4f4; padding: 15px; 
+
+  outline: auto;
+}
+
+.receipt .price,
+.receipt .total { 
+text-align: right; 
+}
+
+.receipt h2 { 
+font-size: 44px; text-align: center;
+}
+.receipt p{ 
+  font-family: SimSun-ExtB;
+  margin-left: 200px;
+}
+
+.receipt-table { 
+  width: 100%;
+ }
+
+.receipt-table th:first-child {
+  text-align: left;
+}
+
+.receipt-table thead th {
+  line-height: 30px;
+}
+
+.receipt-table tbody td {
+  line-height: 44px;
+  
+}
+.receipt-table tfoot td {
+  font-weight: bold;
+  text-align: right;
+}
+.receipt-bottom{
+  text-transform: uppercase;
+  margin-right: 120px;
+  justify-items: center;
+}
+.receipt-bottom p{
+  font-family: SimSun-ExtB;
+  font-size: 13px;
+  margin-left: 150px;
+
+} 
+#date p{
+  font-family: SimSun-ExtB;
+  margin-left: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+
+}
