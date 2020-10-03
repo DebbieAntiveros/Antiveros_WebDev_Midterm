@@ -2,7 +2,7 @@
 
 html {
     overflow-x: hidden;
-    background-image: url('bg-img.jpg');
+    background-image: url('images/bg-img.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -22,7 +22,7 @@ body {
     width: 100%;
     height: 700px;
     padding-top: 2px;
-    background-image: url('bg-top.jpg');
+    background-image: url('images/bg-top.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
@@ -40,7 +40,6 @@ body {
     height: 80px;
     margin-top: 50px;
     margin-left: 10px;
-    background-image: url('cat.png');
     background-repeat: no-repeat;
     float: left;
     
@@ -451,7 +450,7 @@ body {
 }
 
 .team-social:hover {
-  background-image: url(http://u.cubeupload.com/annabelichenko/footericons.png);
+  background-image: url('http://u.cubeupload.com/annabelichenko/footericons.png');
 }
 
 .team-facebook:hover {
@@ -514,7 +513,7 @@ body {
   width: 49px;
   height: 50px;
   margin: 15px 0;
-  background-image: url(http://u.cubeupload.com/annabelichenko/footericons.png);
+  background-image: url('http://u.cubeupload.com/annabelichenko/footericons.png');
   background-repeat: no-repeat;
   float: right;
 }
@@ -532,7 +531,7 @@ body {
 }
 
 .footer-social:hover {
-  background-image: url(http://u.cubeupload.com/annabelichenko/teamicons.png);
+  background-image: url('http://u.cubeupload.com/annabelichenko/teamicons.png');
 }
 
 .footer-facebook:hover {
